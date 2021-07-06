@@ -1,5 +1,3 @@
 # PHPVSCode2
 geanghr
-fgh
-hjkl
-dfg
+fgh k
