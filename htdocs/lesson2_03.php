@@ -1,12 +1,11 @@
 ﻿<?php
-for ($i = 0; $i < 500; $i++) {
-  if ($i == 1){
-    echo $i."\n";
-  } elseif ($i == 23) {
-    echo $i."\n";
-  } elseif ($i == 456) {
+$i = 1;
+for ($j=1; $j<=3; $j++) {
+  for ($k=1; $k<=$j; $k++) {
     echo $i;
+    $i++;
   }
+  echo "<br>";
 }
 
 // 以下をfor文を使用して表示してください。
