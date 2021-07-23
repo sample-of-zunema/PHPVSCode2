@@ -1,12 +1,15 @@
 <?php
-echo date('y年m月d日 H時i分s秒')."\n";
-echo date("Y-m-d",strtotime("+3 day"))."\n";
-echo date("Y-m-d H:i:s",strtotime($target_day . "-1 hour"))."\n";
+echo date('y年m月d日 H時i分s秒');
+echo '<br>';
+echo date("y年m月d日",strtotime("+3 day"));
+echo '<br>';
+echo date("y年m月d日 H時i分s秒",strtotime("-12 hour"));
+echo '<br>';
 
 $today = new DateTime('now');
 $day = new DateTime('2020-01-01');
 $diff = $day->diff($today);
-echo $diff->days;
+echo $diff->days."日";
 
 // 以下をそれぞれ表示してください。
 // 表示するタイミングによって自動で算出すること
