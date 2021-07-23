@@ -6,7 +6,7 @@ $human = [
 ];
 
 foreach ($human as $value) {
-  echo $value["name"].$value["age"].$value["gender"]."\n";
+  echo $value["name"].$value["age"].$value["gender"]."<br>";
   // foreach ($varValueA as $varKeyB => $varValueB) {
   // }
 }
