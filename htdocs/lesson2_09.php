@@ -1,12 +1,9 @@
 ﻿<?php
-for ($i = 0; $i < 350; $i++) {
-  if ($i == 3){
-    echo $i."\n";
-  } elseif ($i == 32) {
-    echo $i."\n";
-  } elseif ($i == 321) {
-    echo $i;
+for ($i = 3; $i >= 1; $i--) {
+  for ($j = 3; $j >= $i; $j--) {
+    echo $j;
   }
+  echo "<br>";
 }
 // 以下をfor文を使用して表示してください。
 
