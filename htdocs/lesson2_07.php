@@ -1,12 +1,9 @@
 ﻿<?php
-for ($i = 150; $i > 0; $i--) {
-  if ($i == 123){
-    echo $i."<br>";
-  } elseif ($i == 12) {
-    echo $i."<br>";
-  } elseif ($i == 1) {
-    echo $i;
+for ($i = 3; $i >= 1; $i--) {
+  for ($j = 1; $j <= $i; $j++) {
+    echo $j;
   }
+  echo "<br>";
 }
 // 以下をfor文を使用して表示してください。
 
