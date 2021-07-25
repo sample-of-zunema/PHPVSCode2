@@ -1,9 +1,9 @@
 ﻿<?php
 for ($i = 150; $i > 0; $i--) {
   if ($i == 123){
-    echo $i."\n";
+    echo $i."<br>";
   } elseif ($i == 12) {
-    echo $i."\n";
+    echo $i."<br>";
   } elseif ($i == 1) {
     echo $i;
   }
