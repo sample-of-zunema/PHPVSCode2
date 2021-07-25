@@ -1,7 +1,7 @@
 ﻿<?php
 for ($i=1; $i < 5 ; $i++) {
   for ($j=3; $j >=$i ; $j--) {
-  echo "*";
+  echo " * ";
   }
   for ($k=1; $k <=$i ; $k++) {
   echo $k;
@@ -10,8 +10,7 @@ for ($i=1; $i < 5 ; $i++) {
   for ($l=3; $l >=6-$k ; $l--) {
   echo $l-4+$i;
   }
-  echo "\n";
-  // echo "<br>";
+  echo "<br>";
 }
 // 以下をfor文を使用して表示してください。
 // ヒント: forの中でforを３回使用

@@ -1,13 +1,12 @@
 ﻿<?php
 for ($i=3; $i>=1; $i--) {
   for ($k=2; $k>=$i; $k--) {
-    echo "*";
+    echo " * ";
   }
   for ($j=1; $j<=$i; $j++){
     echo $j;
   }
-  // echo "<br>";
-  echo "\n";
+  echo "<br>";
 }
 // 以下をfor文を使用して表示してください。
 

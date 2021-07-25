@@ -1,7 +1,7 @@
 <?php
 for($i=5; $i>=1; $i--){
   for($j=2; $j<=$i; $j++){
-    echo "*";
+    echo " * ";
   }
   for($k=5; $k>=$i; $k--){
     echo $k;
